@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb0e0187-2101-4466-87a6-57d587301c47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pipeline/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exception.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="221">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -24,10 +25,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/logger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="34">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -46,10 +56,10 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/requirments.txt" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/src/logger.py" />
         <option value="$PROJECT_DIR$/src/exception.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -82,6 +92,16 @@
               <item name="machine_learning_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="machine_learning_project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="machine_learning_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning_project" type="462c0819:PsiDirectoryNode" />
+              <item name="notebook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -89,6 +109,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -118,7 +139,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12285337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -151,13 +171,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirments.txt" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -189,57 +202,19 @@
     <entry file="file://$PROJECT_DIR$/src/pipeline/train_pipeline.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/12_03_2023_13_56_09.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_15_58_42.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_00_07.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_00_22.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_03_59.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_02_49.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_04_37.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_05_34.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_24_02.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_25_02.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_27_46.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_30_07.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_32_10.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/12_03_2023_13_56_09.log" />
+    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_15_58_42.log" />
+    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_00_07.log" />
+    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_00_22.log" />
+    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_03_59.log" />
+    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_02_49.log" />
+    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_04_37.log" />
+    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_05_34.log" />
+    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_24_02.log" />
+    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_25_02.log" />
+    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_27_46.log" />
+    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_30_07.log" />
+    <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_32_10.log" />
     <entry file="file://$PROJECT_DIR$/logs/03_12_2023/03_12_2023_16_40_34.log">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -257,9 +232,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="34">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -267,16 +255,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exception.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
