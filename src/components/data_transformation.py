@@ -13,6 +13,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
 from src.components.data_ingestion import DataIngestion
+from src.components.train_model import ModelTrain
 
 class DatTransformation(object):
 
@@ -99,4 +100,9 @@ if __name__ == "__main__":
     train_path, test_path = obj1.start_ingestion()
 
     obj = DatTransformation()
-    train_arr,test_arr,_ = obj.transform_input_features(train_path, test_path)
+    train_arr, test_arr,_ = obj.transform_input_features(train_path, test_path)
+
+    obj2 = ModelTrain()
+    best_model, r2_score = obj2.train_models(train_arr, test_arr)
+    print("Best Model: ", best_model)
+    print("Best Score: ", r2_score)
