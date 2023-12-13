@@ -22,6 +22,15 @@ def save_object(file_obj, path):
     except Exception as e:
         raise  CustomException(e, sys)
 
+def get_object(path):
+    try:
+        with open(path, 'rb') as f:
+            obj = pickle.load(f)
+        return  obj
+
+    except Exception as e:
+        raise CustomException(e, sys)
+
 def train_multiple_models(X_train, X_test, y_train, y_test, model_dict, params):
 
     model_score_dict = {}
